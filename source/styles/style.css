@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+body{
+    font-family: Michroma,serif;
+    background: linear-gradient(90deg, #110245 0%, #533065 100%);
+}
+
+.nav-link{
+    color: aquamarine;
+}
+.navbar-nav .nav-link.active{
+    color: rgb(149, 152, 155);
+}
+.logo{
+    width: 2em;
+    border-radius: 20%;
+}
+.navbar-toggler{
+    border-style: none;
+    width:2em;
+    background-color: beige;
+    padding: 5px;
+}
+.card{
+    background: linear-gradient(90deg, #220A87 0%, #6B1E8F 100%);
+}
+.card-title{
+    font-weight: 700;
+    color:black;
+}
+.row {
+    font-size:1.25em;
+}
+.slide-text p{
+    display: inline;
+}
+  img {
+    width:100%;
+    object-fit:cover;
+   }
+.rebrending{
+    color: rgb(110, 6, 51);
+    text-decoration: none;
+}
+.rebrend{
+    color:black;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
+p{
+    font-family: Georgia;
+    color:black;
+}
+.nomber2{
+    background: linear-gradient(270deg, #220A87 0%, #6B1E8F 100%);
+}
+.card a{
+    text-decoration: none;
+    color:black;
+}
+.d-block {
+    width: 50em;
+}
+.card-img-top1{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2% ;
+}
+.card-img-top2{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+.slide-text,
+.footer-text{
+    color: aquamarine;
+    margin:auto auto;
+}
+footer{
+    background-color: black;
+}
+footer p{
+    font-style:italic ;
+    color:antiquewhite;
+}
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim{
+    border-radius: 20%;
+    animation: call 2s ease 0s infinite normal forwards;
+}
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+.help_massage{
+    display: inline;
+    width: 1.2em;
+}
+
+.btn-outline-primary{
+    background: linear-gradient(270deg, #220A87 0%, #6B1E8F 100%);
+    border-color: black;
+    color:black;
+}
